@@ -17,7 +17,6 @@ Hatsune Miku fans, and really anyone that likes cute things or finding new music
 - As a user, I want to see Miku fanart
 - As a user, I want to click the image of miku and be randomly generated a Spotify song from her discography
 - As a user, I want to be able to leave kind messages on the comment board
-- As a user, I want to be able to switch between a Halloween theme and a different theme
 
 ## Implementation
 
