@@ -69,12 +69,23 @@ Describe your data and the relationships between the data points. You can show t
 
 List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
 
+**GET /artists/{id}/top-tracks
+
+- Get
+
 ## Roadmap
 
 Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation working back from the capstone due date. 
 
+- Create client
+ - Make and organize files, place boilerplates and make routes
+
+- Get API key from Spotify
+    - 
+
 ---
 
 ## Future Implementations
-Your project will be marked based on what you committed to in the above document. Here, you can list any additional features you may complete after the MVP of your application is built, or if you have extra time before the Capstone due date.
+- Ability to change themes of the website similar to a light/dark mode
+- Change The Void into a page where you can pick vegetables to give to Miku
 
