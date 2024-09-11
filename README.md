@@ -15,7 +15,7 @@ Hatsune Miku fans, and really anyone that likes cute things or finding new music
 ### Features
 
 - As a user, I want to see Miku fanart
-- As a user, I want to listen to new Miku music or stumble across music I already love and would enjoy hearing again
+- As a user, I want to click the image of miku and be randomly generated a Spotify song from her discography
 - As a user, I want to be able to leave kind messages on the comment board
 - As a user, I want to be able to switch between a Halloween theme and a different theme
 
@@ -42,14 +42,25 @@ Hatsune Miku fans, and really anyone that likes cute things or finding new music
 
 List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
-- Home page (active)
-- Home page (inactive)
+- Home page (Idle)
+- Home page (Active)
 - Comment page
 - The Void page
 
 ### Mockups
 
-Provide visuals of your app's screens. You can use pictures of hand-drawn sketches, or wireframing tools like Figma.
+#### Home Page (Idle)
+![](./assets/mockups/idle-home-page.png)
+
+#### Home Page (Active)
+![](./assets/mockups/active-home-page.png)
+
+#### Coment Page
+![](./assets/mockups/compliment-page.png)
+
+#### The Void
+![](./assets/mockups/the-void.png)
+
 
 ### Data
 
