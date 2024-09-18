@@ -49,16 +49,16 @@ List the pages of your app with brief descriptions. You can show this visually, 
 ### Mockups
 
 #### Home Page (Idle)
-![](./assets/mockups/idle-home-page.png)
+![](./src/assets/mockups/idle-home-page.png)
 
 #### Home Page (Active)
-![](./assets/mockups/active-home-page.png)
+![](./src/assets/mockups/active-home-page.png)
 
 #### Coment Page
-![](./assets/mockups/compliment-page.png)
+![](./src/assets/mockups/compliment-page.png)
 
 #### The Void
-![](./assets/mockups/the-void.png)
+![](./src/assets/mockups/the-void.png)
 
 
 ### Data
