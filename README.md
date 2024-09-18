@@ -89,3 +89,5 @@ Scope your project as a sprint. Break down the tasks that will need to be comple
 - Ability to change themes of the website similar to a light/dark mode
 - Change The Void into a page where you can pick vegetables to give to Miku
 
+- open ai for comment moderation (sentiment analysis)
+
