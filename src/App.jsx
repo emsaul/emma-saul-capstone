@@ -12,19 +12,19 @@ import './App.scss';
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <MainBackground>
-        <Card>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/compliments" element={<Compliments />} />
-            <Route path="/thevoid" element={<TheVoid />} />
-          </Routes>
-        </Card>
-        <Buttons />
-        <CornerMiku />
-      </MainBackground>
-    </BrowserRouter>
+      <BrowserRouter>
+        <MainBackground>
+          <Card>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/compliments" element={<Compliments />} />
+              <Route path="/thevoid" element={<TheVoid />} />
+            </Routes>
+          </Card>
+          <Buttons />
+          <CornerMiku />
+        </MainBackground>
+      </BrowserRouter>
     </>
   )
 }
