@@ -3,10 +3,10 @@ import './Buttons.scss'
 
 const Buttons = () => {
     return (
-        <div>
-            <Link to={`/`}><button>Home</button></Link>
-            <Link to={`/compliments`}><button>Compliments</button></Link>
-            <Link to={`/thevoid`}><button>The Void</button></Link>
+        <div className='btn__wrapper'>
+            <Link to={`/`}><button className='btn'>Home</button></Link>
+            <Link to={`/compliments`}><button className='btn'>Compliments</button></Link>
+            <Link to={`/thevoid`}><button className='btn'>The Void</button></Link>
         </div>
     );
 }

@@ -1,0 +1,14 @@
+.miku {
+    width: 150px;
+    &:hover {
+        opacity: 90%;
+        cursor: pointer;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 95%;
+        position: relative;
+        bottom: 140px;
+    }
+}

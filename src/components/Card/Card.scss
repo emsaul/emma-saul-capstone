@@ -1,14 +1,11 @@
 @use '../../styles/colors' as *;
 
 .card {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     position: relative;
 
-    width: 50%;
-    height: 70vh;
-    margin: 5rem auto;
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
 
     border-radius: 1.25rem;
 

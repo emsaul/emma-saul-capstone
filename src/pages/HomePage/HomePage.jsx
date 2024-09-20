@@ -4,8 +4,7 @@ function Home() {
   const [playerIdle, setPlayerIdle] = useState(true);
   const [trackIds, setTrackIds] = useState([
     "5ic62hKqeDhZsa9l6YQxzJ",
-    "63yoRZd5zl6Ah30hfDm97k",
-    "0s8RXkQW9lwGEV6WlG8KDq",
+    "63yoRZd5zl6Ah30hfDm97k"
   ]);
   const [currentTrackId, setCurrentTrackId] = useState(trackIds[0]);
 
@@ -19,7 +18,7 @@ function Home() {
             className="spotify-iframe"
             src={`https://open.spotify.com/embed/track/${currentTrackId}?utm_source=generator`}
             width="100%"
-            height="352"
+            height="300"
             allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
