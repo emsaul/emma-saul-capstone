@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import './Compliments.scss';
+import './NewCompliment.scss';
 
 export const NewCompliments = ()=> {
     const [compliment, setCompliments] = useState('');

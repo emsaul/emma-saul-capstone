@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import NewCompliments from "../../components/NewCompliment/NewCompliment";
+import './ComplimentsPage.scss';
 
 function Compliments() {
   const [compliments, setCompliments] = useState([]);
@@ -15,14 +17,18 @@ function Compliments() {
 
   return (
     <>
-      <p>woa!! the compliments page so pretty</p>
-      <ul>
-        {compliments.map((compliment) => (
-          <li key={compliment.id}>
-            <p>{compliment.compliment}</p>
-          </li>
-        ))}
-      </ul>
+        <header>
+            <h1>Leave a Compliment for Miku!</h1>
+            <h3>Please only leave compliments here!!!</h3>
+        </header>
+        <NewCompliments />
+        <ul className="compliment__list">
+            {compliments.map((compliment) => (
+            <li className="compliment" key={compliment.id}>
+                <p className="compliment__body">{compliment.compliment}</p>
+            </li>
+            ))}
+        </ul>
     </>
   );
 }
