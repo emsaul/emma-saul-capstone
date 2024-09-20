@@ -24,7 +24,7 @@ function App() {
             </Routes>
           </Card>
           <Buttons />
-          {/* <CornerMiku /> */}
+          <CornerMiku />
         </MainBackground>
       </BrowserRouter>
     </>

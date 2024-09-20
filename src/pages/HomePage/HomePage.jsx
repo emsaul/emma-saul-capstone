@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './HomePage.scss';
 
 function Home() {
   const [playerIdle, setPlayerIdle] = useState(true);
@@ -23,15 +24,33 @@ function Home() {
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
           ></iframe>
-          <button onClick={() => setCurrentTrackId(trackIds[0])}>
+
+          <div className="tracks__wrapper">
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[0])}>
             Track 1
-          </button>
-          <button onClick={() => setCurrentTrackId(trackIds[1])}>
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[1])}>
             Track 2
-          </button>
-          <button onClick={() => setCurrentTrackId(trackIds[2])}>
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[2])}>
             Track 3
-          </button>
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[2])}>
+            Track 3
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[2])}>
+            Track 3
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[2])}>
+            Track 3
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[2])}>
+            Track 3
+            </button>
+            <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[2])}>
+            Track 3
+            </button>
+          </div>
         </div>
       )}
     </>

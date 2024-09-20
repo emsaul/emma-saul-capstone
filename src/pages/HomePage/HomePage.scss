@@ -1,0 +1,15 @@
+@use '../../styles/colors' as *;
+
+.tracks__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .25rem;
+    width: 100%;
+}
+.tracks__individual {
+    min-width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    border: .0625rem solid $wow-brown;
+}

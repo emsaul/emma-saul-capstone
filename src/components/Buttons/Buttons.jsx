@@ -4,9 +4,9 @@ import './Buttons.scss'
 const Buttons = () => {
     return (
         <div className='btn__wrapper'>
-            <Link to={`/`}><button className='btn'>Home</button></Link>
-            <Link to={`/compliments`}><button className='btn'>Compliments</button></Link>
-            <Link to={`/thevoid`}><button className='btn'>The Void</button></Link>
+            <Link className='btn__individual' to={`/`}><button className='btn'>Home</button></Link>
+            <Link className='btn__individual' to={`/compliments`}><button className='btn'>Compliments</button></Link>
+            <Link className='btn__individual' to={`/thevoid`}><button className='btn'>The Void</button></Link>
         </div>
     );
 }
