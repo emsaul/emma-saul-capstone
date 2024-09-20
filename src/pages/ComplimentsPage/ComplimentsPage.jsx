@@ -5,23 +5,22 @@ import './ComplimentsPage.scss';
 
 function Compliments() {
   const [compliments, setCompliments] = useState([]);
-
-  useEffect(() => {
-    const getCompliments = async () => {
+const getCompliments = async () => {
       const response = await axios.get(`http://localhost:5050/compliments`);
       console.log(response);
       setCompliments(response.data);
     };
+  useEffect(() => {
     getCompliments();
   }, []);
 
   return (
     <>
         <header>
-            <h1>Leave a Compliment for Miku!</h1>
-            <h3>Please only leave compliments here!!!</h3>
+            <h1 className="page-header__title">Leave a Compliment for Miku!</h1>
+            <h3 className="page-header__sub-title">Please only leave compliments here!!!</h3>
         </header>
-        <NewCompliments />
+        <NewCompliments getCompliments={getCompliments} />
         <ul className="compliment__list">
             {compliments.map((compliment) => (
             <li className="compliment" key={compliment.id}>

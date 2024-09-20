@@ -1,0 +1,27 @@
+@use '../../styles/colors' as *;
+
+.page-header__title {
+    color: $off-white;
+}
+.page-header__sub-title {
+    color: $off-white;
+}
+.compliment-form__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.compliment-form__label {
+    color: $off-white;
+}
+.compliment-form__input {
+    width: 90%;
+    padding-bottom: 30px;
+    border-radius: .625rem;
+}
+.compliment__btn {
+    padding: 4px 1rem;
+    border-radius: .625rem;
+    margin-left: .625rem;
+}
