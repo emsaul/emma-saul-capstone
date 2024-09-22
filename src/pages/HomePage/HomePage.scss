@@ -1,15 +1,36 @@
 @use '../../styles/colors' as *;
+@use '../../styles/media-queries' as *;
 
+.page-wrapper {
+    @include tablet {
+        display: flex;
+    }
+}
+.spotify__wrapper {
+    @include tablet {
+        order: 2;
+        width: 55%;
+        position: sticky;
+        top: 0px;
+    }
+}
 .tracks__wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: .25rem;
     width: 100%;
+    @include tablet {
+        order: 1;
+        width: 45%;
+    }
 }
 .tracks__individual {
     min-width: 40%;
     padding: 20px;
     border-radius: 20px;
     border: .0625rem solid $wow-brown;
+    @include tablet {
+        min-width: 100%;
+    }
 }
