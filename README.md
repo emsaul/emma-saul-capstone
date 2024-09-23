@@ -2,7 +2,7 @@
 
 ## Overview
 
-This app is just a silly little thing that lets the user flip through Hatsune Miku's Spotify discography, as well as leave behind encouraging comments for the virtual idol!
+This app is just a silly little thing that lets the user flip through a short and sweet hand-selected playlist of Hatsune Miku songs, as well as leave behind encouraging comments for the virtual idol!
 
 ### Problem Space
 
@@ -15,7 +15,7 @@ Hatsune Miku fans, and really anyone that likes cute things or finding new music
 ### Features
 
 - As a user, I want to see Miku fanart
-- As a user, I want to click the image of miku and be randomly generated a Spotify song from her discography
+- As a user, I want to freely click through a track list to discover new songs from a curated playlist
 - As a user, I want to be able to leave kind messages on the comment board
 
 ## Implementation
@@ -23,28 +23,22 @@ Hatsune Miku fans, and really anyone that likes cute things or finding new music
 ### Tech Stack
 
 - React
-- Express
-- MySQL
 - Client libraries:
     - react
     - react-router
     - axios
-- Server libraries:
-    - knex
-    - express
 
 ### APIs
 
-- Spotify API
+- Spotify embeded iframes
 
 ### Sitemap
 
 List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
-- Home page (Idle)
-- Home page (Active)
-- Comment page
-- The Void page
+- Home page (Idle): The page a user will first see upon opening the app. 
+- Home page (Active): The active version of the homepage that the user will see once they click on the start button.
+- Comment page: A simple comment section.
 
 ### Mockups
 
@@ -54,24 +48,8 @@ List the pages of your app with brief descriptions. You can show this visually, 
 #### Home Page (Active)
 ![](./src/assets/mockups/active-home-page.png)
 
-#### Coment Page
+#### Comment Page
 ![](./src/assets/mockups/compliment-page.png)
-
-#### The Void
-![](./src/assets/mockups/the-void.png)
-
-
-### Data
-
-Describe your data and the relationships between the data points. You can show this visually using diagrams, or write it out. 
-
-### Endpoints
-
-List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
-
-**GET /artists/{id}/top-tracks
-
-- Get
 
 ## Roadmap
 
@@ -80,14 +58,21 @@ Scope your project as a sprint. Break down the tasks that will need to be comple
 - Create client
  - Make and organize files, place boilerplates and make routes
 
-- Get API key from Spotify
-    - 
+- Curate playlist
+ - Find songs on Spotify, collect their IDs and add them to an array for use on the app
+
+- Add functionality to app
+ - Add some basic CRUD functions
+
+- Styling
+ - Add styling to the app with SCSS
 
 ---
 
 ## Future Implementations
-- Ability to change themes of the website similar to a light/dark mode
-- Change The Void into a page where you can pick vegetables to give to Miku
+- Polish styling for app 
 
-- open ai for comment moderation (sentiment analysis)
+- Ability to change themes of the website similar to a light/dark mode
+
+- Open AI for comment moderation (sentiment analysis)
 

@@ -1,0 +1,27 @@
+@use '../../styles/colors' as *;
+@use '../../styles/media-queries' as *;
+
+.compliment-form {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__label {
+        color: $off-white;
+    }
+    &__input {
+        width: 90%;
+        padding-bottom: 30px;
+        border-radius: .625rem;
+    }
+    &__btn {
+        padding: 4px 1rem;
+        border-radius: .625rem;
+        margin-left: 1rem;
+        @include tablet {
+            margin-left: 2.1875rem;
+        }
+    }
+}

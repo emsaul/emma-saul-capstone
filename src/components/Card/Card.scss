@@ -1,18 +1,15 @@
 @use '../../styles/colors' as *;
 
 .card {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     position: relative;
 
-    width: 50%;
+    width: 90%;
     height: 70vh;
-    margin: 5rem auto;
+    margin: 0 auto;
 
     border-radius: 1.25rem;
 
-    background-color: $light-orange;
+    background-color: $lighter-black;
 
     overflow-y: auto;
 }

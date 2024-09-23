@@ -1,0 +1,11 @@
+@use '../../styles/colors' as *;
+
+.site-header {
+    font-family: 'RussoOne-Regular';
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: $off-white;
+    margin: 1.25rem 0 .3125rem 0;
+}

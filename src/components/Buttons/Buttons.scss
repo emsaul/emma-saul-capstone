@@ -1,0 +1,35 @@
+@use '../../styles/colors' as *;
+@use '../../styles/media-queries' as *;
+
+.btn {
+    padding: .125rem .375rem;
+    border: solid .0625rem $light-orange;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: $mid-orange;
+    color: $off-black;
+    width: 100%;
+    @include tablet {
+        padding: .3125rem 1rem;
+        font-size: 30px;
+    }
+    @include desktop {
+        padding: 10px 20px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        transform: scale(0.8);
+    }
+    &__individual {
+        width: 20%;
+    }
+    &__wrapper {
+        display: flex;
+        gap: .25rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: .375rem;
+    }
+}
