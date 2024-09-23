@@ -3,7 +3,6 @@ import axios from "axios";
 import './NewCompliment.scss';
 
 export const NewCompliments = ({getCompliments})=> {
-    // const [compliment, setCompliments] = useState('');
     const handleFormSubmit = async(event) => {
         event.preventDefault();
         console.log(event.target)
@@ -27,7 +26,7 @@ export const NewCompliments = ({getCompliments})=> {
                 <label className="compliment-form__label" htmlFor="">Leave a compliment :3</label>
                 <input className="compliment-form__input" type="textarea" name="compliment" placeholder="Leave a compliment here please!" />
             </div>
-            <button className="compliment__btn" type="submit">Compliment!</button>
+            <button className="compliment-form__btn" type="submit">Compliment!</button>
         </form>
     </>
   );

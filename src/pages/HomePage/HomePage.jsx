@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
       {playerIdle ? (
-        <button onClick={() => setPlayerIdle(false)}>Start Player</button>
+        <div className="player-button__wrapper"><button className="player-button" onClick={() => setPlayerIdle(false)}>Start!</button></div>
       ) : (
         <div className="page-wrapper">
           <div className="spotify__wrapper">
@@ -33,7 +33,6 @@ function Home() {
           ></iframe>
           </div>
           
-
           <div className="tracks__wrapper">
             <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[0])}>
             Track 1

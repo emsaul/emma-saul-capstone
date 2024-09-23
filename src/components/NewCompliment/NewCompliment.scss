@@ -1,27 +1,24 @@
 @use '../../styles/colors' as *;
+@use '../../styles/media-queries' as *;
 
-.page-header__title {
-    color: $off-white;
-}
-.page-header__sub-title {
-    color: $off-white;
-}
-.compliment-form__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.compliment-form__label {
-    color: $off-white;
-}
-.compliment-form__input {
-    width: 90%;
-    padding-bottom: 30px;
-    border-radius: .625rem;
-}
-.compliment__btn {
-    padding: 4px 1rem;
-    border-radius: .625rem;
-    margin-left: .625rem;
+.compliment-form {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__label {
+        color: $off-white;
+    }
+    &__input {
+        width: 90%;
+        padding-bottom: 30px;
+        border-radius: .625rem;
+    }
+    &__btn {
+        padding: 4px 1rem;
+        border-radius: .625rem;
+        margin-left: .625rem;
+    }
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/HomePage/HomePage';
 import Compliments from './pages/ComplimentsPage/ComplimentsPage';
-import TheVoid from './pages/TheVoidPage/TheVoidPage';
 import Card from './components/Card/Card';
 import MainBackground from './components/MainBackground/MainBackground';
 import Title from './components/Title/Title';
@@ -20,7 +19,6 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/compliments" element={<Compliments />} />
-              <Route path="/thevoid" element={<TheVoid />} />
             </Routes>
           </Card>
           <Buttons />

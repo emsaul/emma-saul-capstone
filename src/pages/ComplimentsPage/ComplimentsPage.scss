@@ -1,6 +1,12 @@
 @use '../../styles/colors' as *;
 @use '../../styles/media-queries' as *;
 
+.page-header__title {
+    color: $off-white;
+}
+.page-header__sub-title {
+    color: $off-white;
+}
 .compliment__list {
     display: flex;
     flex-direction: column;

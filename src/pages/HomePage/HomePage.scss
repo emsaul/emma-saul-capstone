@@ -1,6 +1,16 @@
 @use '../../styles/colors' as *;
 @use '../../styles/media-queries' as *;
 
+.player-button {
+    padding: 5rem;
+    border-radius: 20px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
 .page-wrapper {
     @include tablet {
         display: flex;
