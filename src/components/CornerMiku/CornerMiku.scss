@@ -1,0 +1,21 @@
+@use '../../styles/media-queries' as *;
+
+.miku {
+    width: 100px;
+    @include tablet {
+        width: 200px;
+    }
+    &:hover {
+        opacity: 90%;
+        cursor: pointer;
+    }
+    &__wrapper {
+        position: absolute;
+        bottom: 70px;
+        left: 215px;
+        @include tablet {
+            bottom: 20px;
+            left: 550px;
+        }
+    }
+}
