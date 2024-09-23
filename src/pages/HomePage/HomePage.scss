@@ -40,6 +40,13 @@
         padding: 1.25rem;
         border-radius: 1.25rem;
         border: .0625rem solid $wow-brown;
+        transition: 0.3s;
+        &:hover {
+            cursor: pointer;
+        }
+        &:active {
+            transform: scale(0.8);
+        }
         &:nth-child(odd) {
             border: .125rem solid $off-black;
             background-color: $wow-brown;
