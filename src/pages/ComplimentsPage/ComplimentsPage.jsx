@@ -18,7 +18,6 @@ const getCompliments = async () => {
     <>
         <header>
             <h1 className="page-header__title">Leave a Compliment for Miku!</h1>
-            <h3 className="page-header__sub-title">Please only leave compliments here!!!</h3>
         </header>
         <NewCompliments getCompliments={getCompliments} />
         <ul className="compliment__list">

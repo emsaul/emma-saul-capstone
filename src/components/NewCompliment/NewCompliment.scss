@@ -19,6 +19,9 @@
     &__btn {
         padding: 4px 1rem;
         border-radius: .625rem;
-        margin-left: .625rem;
+        margin-left: 1rem;
+        @include tablet {
+            margin-left: 2.1875rem;
+        }
     }
 }

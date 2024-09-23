@@ -1,3 +1,4 @@
+//PRIMARY TEXT FONT
 //LIGHT
 @font-face {
     font-family: "Dongle";
@@ -16,4 +17,10 @@
     font-family: "Dongle";
     src: url('/src/assets/fonts/Dongle-Bold.ttf') format('truetype');
     font-weight: 700;
+}
+//SECONDARY TEXT FONT FOR TITLES
+@font-face {
+    font-family: "RussoOne-Regular";
+    src: url('/src/assets/fonts/RussoOne-Regular.ttf') format('truetype');
+    font-weight: 400;
 }

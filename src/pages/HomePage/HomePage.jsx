@@ -44,19 +44,19 @@ function Home() {
             Track 3
             </button>
             <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[3])}>
-            Track 3
+            Track 4
             </button>
             <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[4])}>
-            Track 3
+            Track 5
             </button>
             <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[5])}>
-            Track 3
+            Track 6
             </button>
             <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[6])}>
-            Track 3
+            Track 7
             </button>
             <button className="tracks__individual" onClick={() => setCurrentTrackId(trackIds[7])}>
-            Track 3
+            Track 8
             </button>
           </div>
         </div>
